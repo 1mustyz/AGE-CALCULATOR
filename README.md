@@ -7,7 +7,7 @@ A small project on age calculator that take a year of birth and gives the number
     - its divided into three categories
 
 # categories
-    ![alt text](http://url/to/h1.png)
-    ![alt text](http://url/to/h2.png)
-    ![alt text](http://url/to/h3.png)    
+    ![alt text](h1.png 'This is a screenshot.')
+    ![alt text](h2.png)
+    ![alt text](h3.png)    
 
