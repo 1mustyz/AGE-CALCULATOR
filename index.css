@@ -77,7 +77,7 @@
 .submodal-inner {
     width: 50%;
     margin: auto;
-    margin-top: 17%;
+    margin-top: 7%;
     background-color: white;
     padding-left: 30px;
     height:40% ;
@@ -95,16 +95,78 @@
     height: 70%;
     margin-right: 50px;
 }
+.submodal-inner > .birthday {
+    width: 50%;
+    margin: auto;
+}
 
 .submodal-inner > .sub-inner >*{
     margin-bottom: 25px;
 }
+
 .submodal-inner .backBtn {
     margin-top: 20px;
     margin-left: 695px;
     padding: 10px;
 }
 
+.submodal-inner > .comments {
+    margin-top: 10%;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding-left: 30px;
+    min-height:60vh ;
+    padding-top: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px; 
+    overflow-y : auto;
+}
+
+.comments > .bMsg {
+    margin-bottom: 20px;
+    width: 90%;
+}
+.comments > .headd {
+    width: 50%;
+    margin: auto;
+}
+
 .hidden {
     display: none;
 }
+
+.birthday.font1 {
+    color: #4349D3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.birthday.font2 {
+    color: red;
+    font-family: fantasy;
+}
+
+.birthday.font3 {
+    color: salmon;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ #bold-text {
+    font-size: 20px;
+    font-style: italic;
+    color: green;
+}
+
+.sub-inner.red {
+    border: 1px solid red;
+}
+
+#b-bold {
+    font-size: 20px;
+    margin-left: 20px;
+} 
